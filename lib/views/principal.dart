@@ -103,6 +103,16 @@ class _PrincipalState extends State<Principal> {
         alignment: Alignment.center,
         children: <Widget>[
           Container(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [
+                  Color.fromRGBO(253, 205, 165, 0.5),
+                  Color.fromRGBO(218, 238, 249, 0.5),
+                ],
+                begin: Alignment.topRight,
+                end: Alignment.bottomLeft,
+              ),
+            ),
             width: double.infinity,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
